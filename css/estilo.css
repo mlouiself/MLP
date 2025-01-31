@@ -1,4 +1,35 @@
 body {
     background-color: #121214;
-    color: #7c7c8a
+    color: #7c7c8a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+main input{
+    background-color: #202024;
+}
+
+header h1{
+    font-size: 1.5rem;
+    color: #e1e1e6;
+}
+
+header p{
+    font-size: 1.125rem;
+}
+
+form label{
+    font-size: 1rem;
+    color: #e1e1e6;
+
+}
+
+.links_finais{
+    font-size: 0.875rem;
 }
