@@ -40,6 +40,6 @@ form label{
     font-size: 0.875rem;
 }
 
-.links_finais p {
-    color: 7c7c8a;
+.links_finais a {
+    color: #7c7c8a;
 }
