@@ -6,6 +6,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400; /*Regular/Normal*/
 }
  
 main {
@@ -21,6 +23,7 @@ main input{
 header h1{
     font-size: 1.5rem;
     color: #e1e1e6;
+    font-weight: bold; /*700*/
 }
 
 header p{
@@ -30,9 +33,13 @@ header p{
 form label{
     font-size: 1rem;
     color: #e1e1e6;
-
+    font-weight: 600; /*SemiBold*/
 }
 
 .links_finais{
     font-size: 0.875rem;
+}
+
+.links_finais p {
+    color: 7c7c8a;
 }
