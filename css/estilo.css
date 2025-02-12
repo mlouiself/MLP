@@ -44,3 +44,8 @@ form label{
 .links_finais a {
     color: #7c7c8a;
 }
+
+#login {
+    background-image: url(/img/icone_cpf-cnpj.svg);
+    
+}
