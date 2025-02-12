@@ -47,6 +47,13 @@ form label{
 
 #login {
     background-image: url('/img/icone_cpf-cnpj.svg');
-    
-    
+    background-repeat: no-repeat;
+    background-position-y: center;
 }
+
+#senha {
+    background-image: url('/img/icone_senha.svg');
+    background-repeat: no-repeat;
+}
+
+
