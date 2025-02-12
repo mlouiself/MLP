@@ -46,6 +46,7 @@ form label{
 }
 
 #login {
-    background-image: url(/img/icone_cpf-cnpj.svg);
+    background-image: url('/img/icone_cpf-cnpj.svg');
+    
     
 }
