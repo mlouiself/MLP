@@ -56,4 +56,8 @@ form label{
     background-repeat: no-repeat;
 }
 
+#nome {
+    background-image: url("/img/icone_usuario.svg");
+    background-repeat: no-repeat;
+}
 
