@@ -17,9 +17,9 @@ main {
     justify-content: center;
 }
 
-/* main form { */
-    /* flex-direction: column; */
-/* } */
+main form {
+    flex-direction: column;
+}
 
 main input{
     background-color: #202024;
