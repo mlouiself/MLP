@@ -32,7 +32,6 @@ header {
     flex-direction: column;
     justify-content: center;
     justify-content: center;
-    gap: 12px;
 }
 
 header h1{
