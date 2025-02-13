@@ -31,6 +31,8 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    justify-content: center;
+    gap: 12px;
 }
 
 header h1{
@@ -41,6 +43,10 @@ header h1{
 
 header p{
     font-size: 1.125rem;
+}
+
+header img {
+    margin-bottom: 24px;
 }
 
 form label{
