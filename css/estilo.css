@@ -48,6 +48,7 @@ main input{
     background-color: #202024;
     border: none;
     /* border-radius: 4px; */
+    width: 400px;
 }
 
 form label{
