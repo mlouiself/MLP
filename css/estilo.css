@@ -46,7 +46,7 @@ main form {
     gap: 12px;
 }
 
-main input{
+form input{
     background-color: #202024;
     border: none;
     border-radius: 4px;
@@ -70,6 +70,13 @@ form button {
     background-color: #30a46c;
     color: black;
     padding: 12px 16px;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: column;
+    margin-top: 39px;
+    gap: 16px;
 }
 
 #cadas_empresa a {
