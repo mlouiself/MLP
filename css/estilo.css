@@ -83,4 +83,8 @@ form label{
     background-repeat: no-repeat;
 } 
 
+.telefone {
+    background-image: url('../img/icone_telefone.svg');
+    
+}
 
