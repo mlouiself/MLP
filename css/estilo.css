@@ -40,8 +40,9 @@ main {
 }
 
 main form {
-    display: flex; /*Adicionado agora*/
+    display: flex;
     flex-direction: column;
+    gap: 12px;
 }
 
 main input{
