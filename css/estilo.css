@@ -76,15 +76,18 @@ form label{
 .senha {
     background-image: url('../img/icone_senha.svg');
     background-repeat: no-repeat;
+    background-position-y: center;
 }
 
 .nome {
     background-image: url("../img/icone_usuario.svg");
     background-repeat: no-repeat;
+    background-position-y: center;
 } 
 
 .telefone {
     background-image: url('../img/icone_telefone.svg');
-    
+    background-repeat: no-repeat;
+    background-position-y: center;
 }
 
