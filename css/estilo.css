@@ -67,11 +67,11 @@ form label{
     color: #7c7c8a;
 }
 
-/* /* #login {
-    background-image: url('/img/icone_cpf-cnpj.svg');
+#login { 
+    background-image: url('../img/icone_cpf-cnpj.svg');
     background-repeat: no-repeat;
     background-position-y: center;
-} */
+}
 
 #senha {
     background-image: url('../img/icone_senha.svg');
@@ -79,7 +79,7 @@ form label{
 }
 
 #nome {
-    background-image: url("/img/icone_usuario.svg");
+    background-image: url("../img/icone_usuario.svg");
     background-repeat: no-repeat;
 } 
 
