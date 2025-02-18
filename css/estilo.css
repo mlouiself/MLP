@@ -14,7 +14,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    justify-content: center;
+    align-items: center;
     margin-bottom: 36px;
     gap: 12px;
 }
@@ -45,6 +45,7 @@ main {
 main form {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 12px;
 }
 
@@ -96,8 +97,17 @@ form button {
 }
 
 .links_finais{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
     font-size: 0.875rem;
     margin-top: 32px;
+}
+
+.links_finais p {
+    margin: 0%;
 }
 
 .links_finais a {
