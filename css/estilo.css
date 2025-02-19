@@ -138,3 +138,9 @@ form button {
     background-repeat: no-repeat;
     background-position-y: center;
 }
+
+@media (max-width: 500px) {
+    :root {
+        font-size: 10px;
+    }
+}
