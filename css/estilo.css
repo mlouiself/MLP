@@ -80,7 +80,9 @@ form button {
     font-weight: 600; /*SemiBold*/
 }
 
-#cpf-div, #senha-div, #nome-div, #fone-div, #email-div, #senha_criar-div, #senha_confirmar-div {
+#cpf-div, #senha-div, #nome-div, #fone-div, #email-div, #senha_criar-div,
+ #senha_confirmar-div, #cadas-nome-div, #cadas-fone-div, #cadas-cnpj-div,
+ #cadas-email-div, #cadas-senha_criar-div, #cadas-senha_confirmar-div {
     display: flex;
     border-radius: 4px;
     align-items: center;
@@ -98,7 +100,9 @@ form button {
     margin-bottom: 0px;
 }
 
-#cpf-img, #senha-img, #nome-img, #fone-img, #email-img, #senha_criar-img, #senha_confirmar-img {
+#cpf-img, #senha-img, #nome-img, #fone-img, #email-img, #senha_criar-img,
+ #senha_confirmar-img, #cadas-nome-img, #cadas-fone-img, #cadas-cnpj-img,
+ #cadas-email-img, #cadas-senha_criar-img, #cadas-senha_confirmar-img {
     margin: 0px 0px 0px 16px;
 }
 

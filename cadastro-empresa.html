@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/estilo.css">
-    <title>Tela de cadastro do consumidor</title>
+    <title>Tela de cadastro da empresa</title>
 </head>
 <body>
     <header>
@@ -18,38 +18,43 @@
 
     <main>
         <form action="">
-            <label for="nome">Nome completo do usuário</label>
-            <div id="nome-div">
-                <img id="nome-img" src="img/icone_usuario.svg" alt="Icone de usuário" width="24px" height="24px">
+            <label for="nome">Nome da empresa credenciada</label>
+            <div id="cadas-nome-div">
+                <img id="cadas-nome-img" src="img/icone_usuario.svg" alt="Icone de usuário" width="24px" height="24px">
                 <input class="nome" type="text" id="nome" placeholder="Fulano da Silva" required>
             </div>
 
             <label for="fone">Telefone</label>
-            <div id="fone-div">
-                <img id="fone-img" src="img/icone_telefone.svg" alt="Icone de telefone" width="24px" height="24px">
+            <div id="cadas-fone-div">
+                <img id="cadas-fone-img" src="img/icone_telefone.svg" alt="Icone de telefone" width="24px" height="24px">
                 <input class="telefone" type="tel" id="fone" placeholder="(84) 9 9999-9999" required>
             </div>
 
+            <label for="cnpj">CNPJ</label>
+            <div id="cadas-cnpj-div">
+                <img id="cadas-cnpj-img" src="img/icone_cnpj.svg" alt="Icone de CNPJ" width="24px" height="24px">
+                <input type="text" id="cnpj" placeholder="00.000.000/0001-00" required>
+            </div>
+
             <label for="email">Endereço de e-mail</label>
-            <div id="email-div">
-                <img id="email-img" src="img/icone_cpf-cnpj.svg" alt="Icone de CPF e CNPJ" width="24px" height="24px">
+            <div id="cadas-email-div">
+                <img id="cadas-email-img" src="img/icone_cpf-cnpj.svg" alt="Icone de CPF e CNPJ" width="24px" height="24px">
                 <input class="login" type="email" id="email" placeholder="fulano@example.com" required>
             </div>
 
             <label for="senha_criar">Crie sua senha</label>
-            <div id="senha_criar-div">
-                <img id="senha_criar-img" src="img/icone_senha.svg" alt="Icone de senha" width="24px" height="24px">
+            <div id="cadas-senha_criar-div">
+                <img id="cadas-senha_criar-img" src="img/icone_senha.svg" alt="Icone de senha" width="24px" height="24px">
                 <input class="senha" type="password" id="senha_criar" placeholder="********" required>
             </div>
 
             <label for="senha_confirmar">Confirme sua senha</label>
-            <div id="senha_confirmar-div">
-                <img id="senha_confirmar-img" src="img/icone_senha.svg" alt="Icone de senha" width="24px" height="24px">
+            <div id="cadas-senha_confirmar-div">
+                <img id="cadas-senha_confirmar-img" src="img/icone_senha.svg" alt="Icone de senha" width="24px" height="24px">
                 <input type="password" id="senha_confirmar" placeholder="********" required>
             </div>
             <div class="botoes">
                 <button type="submit">Cadastrar-se</button>
-                <button id="cadas_empresa"><a href="cadastro-empresa.html">Cadastrar-se como empresa</a></button>
             </div>
         </form>
 
