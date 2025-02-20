@@ -19,20 +19,34 @@
     <main>
         <form action="">
             <label for="nome">Nome completo do usuário</label>
-            <input class="nome" type="text" id="nome" placeholder="Fulano da Silva" required>
+            <div id="nome-div">
+                <img id="nome-img" src="img/icone_usuario.svg" alt="Icone de usuário" width="24px" height="24px">
+                <input class="nome" type="text" id="nome" placeholder="Fulano da Silva" required>
+            </div>
 
             <label for="fone">Telefone</label>
-            <input class="telefone" type="tel" id="fone" placeholder="(84) 9 9999-9999" required>
+            <div id="fone-div">
+                <img id="fone-img" src="img/icone_telefone.svg" alt="Icone de telefone" width="24px" height="24px">
+                <input class="telefone" type="tel" id="fone" placeholder="(84) 9 9999-9999" required>
+            </div>
 
             <label for="email">Endereço de e-mail</label>
-            <input class="login" type="email" id="email" placeholder="fulano@example.com" required>
+            <div id="email-div">
+                <img id="email-img" src="img/icone_cpf-cnpj.svg" alt="Icone de CPF e CNPJ" width="24px" height="24px">
+                <input class="login" type="email" id="email" placeholder="fulano@example.com" required>
+            </div>
 
             <label for="senha_criar">Crie sua senha</label>
-            <input class="senha" type="password" id="senha_criar" placeholder="********" required>
+            <div id="senha_criar-div">
+                <img id="senha_criar-img" src="img/icone_senha.svg" alt="Icone de senha" width="24px" height="24px">
+                <input class="senha" type="password" id="senha_criar" placeholder="********" required>
+            </div>
 
             <label for="senha_confirmar">Confirme sua senha</label>
-            <input class="senha ultimo_input" type="password" id="senha_confirmar" placeholder="********" required>
-
+            <div id="senha_confirmar-div">
+                <img id="senha_confirmar-img" src="img/icone_senha.svg" alt="Icone de senha" width="24px" height="24px">
+                <input type="password" id="senha_confirmar" placeholder="********" required>
+            </div>
             <div class="botoes">
                 <button type="submit">Cadastrar-se</button>
                 <button id="cadas_empresa"><a href="">Cadastrar-se como empresa</a></button>

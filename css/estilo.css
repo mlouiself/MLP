@@ -48,7 +48,6 @@ main form {
     flex-direction: column;
     justify-content: center;
     gap: 12px;
-    /* position: relative; */
 }
 
 form input {
@@ -57,7 +56,6 @@ form input {
     color: #7c7c8a;
     border: none;
     outline: none;
-    border-radius: 4px;
     width: 360px;
     height: 48px;
     padding: 12px 16px;
@@ -82,8 +80,26 @@ form button {
     font-weight: 600; /*SemiBold*/
 }
 
-.ultimo_input {
-    margin-bottom: 0;
+#cpf-div, #senha-div, #nome-div, #fone-div, #email-div, #senha_criar-div, #senha_confirmar-div {
+    display: flex;
+    border-radius: 4px;
+    align-items: center;
+    background-color: #202024;
+    top: 42px;
+    left: 16px;
+    margin-bottom: 16px;
+}
+
+#senha_confirmar-div {
+    margin-bottom: 0px;
+}
+
+#senha-div {
+    margin-bottom: 0px;
+}
+
+#cpf-img, #senha-img, #nome-img, #fone-img, #email-img, #senha_criar-img, #senha_confirmar-img {
+    margin: 0px 0px 0px 16px;
 }
 
 .botoes {
@@ -116,44 +132,8 @@ form button {
     color: #7c7c8a;
 }
 
-/* .login { 
-    background-image: url('../img/icone_cpf-cnpj.svg');
-    background-repeat: no-repeat;
-    background-position-y: center;
-} */
-/* 
-.senha {
-    background-image: url('../img/icone_senha.svg');
-    background-repeat: no-repeat;
-    background-position-y: center;
-} */
-
-.nome {
-    background-image: url("../img/icone_usuario.svg");
-    background-repeat: no-repeat;
-    background-position-y: center;
-} 
-
-.telefone {
-    background-image: url('../img/icone_telefone.svg');
-    background-repeat: no-repeat;
-    background-position-y: center;
-}
-
 @media (max-width: 500px) {
     :root {
         font-size: 10px;
     }
-}
-
-#cpf-div, #senha-div {
-    display: flex;
-    align-items: center;
-    background-color: #202024;
-    top: 42px;
-    left: 16px;
-}
-
-#cpf-img, #senha-img {
-    margin: 0px 0px 0px 16px;
 }
