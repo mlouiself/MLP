@@ -19,12 +19,16 @@
     <main>
         <form action="">
             <label for="login">Digite seu login</label>
-            <img id="cpf-img" src="img/icone_cpf-cnpj.svg" alt="">
-            <input class="login" type="text" id="login" placeholder="CPF ou CNPJ" required>
+            <div id="cpf-div">
+                <img id="cpf-img" src="img/icone_cpf-cnpj.svg" alt="Icone do CPF e CNPJ" width="24px" height="24px">
+                <input class="login" type="text" id="login" placeholder="CPF ou CNPJ" required>
+            </div>
 
             <label for="senha">Insira sua senha</label>
-            <img id="senha-img" src="img/icone_senha.svg" alt="">
-            <input class="senha ultimo_input" type="password" id="senha" placeholder="********" required>
+            <div id="senha-div">
+                <img id="senha-img" src="img/icone_senha.svg" alt="Icone de senha" width="24px" height="24px">
+                <input class="senha ultimo_input" type="password" id="senha" placeholder="********" required>
+            </div>
 
             <div class="botoes">
                 <button type="submit">Acessar</button>
